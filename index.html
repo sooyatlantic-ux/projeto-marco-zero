@@ -3,50 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recife Antigo - Outros Pontos</title>
+    <title>Recife - Marco Zero</title>
     <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; background-color: #f4f4f4; }
-        header { background: #e74c3c; color: white; text-align: center; padding: 20px; }
-        main { max-width: 900px; margin: 20px auto; padding: 20px; background: white; border-radius: 8px; }
-        .container-fotos { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
-        .ponto-turistico { flex: 1; min-width: 300px; text-align: center; }
-        .ponto-turistico img { width: 100%; border-radius: 8px; height: 200px; object-fit: cover; }
-        footer { text-align: center; padding: 20px; background: #333; color: white; margin-top: 30px; }
-        .btn-voltar { display: inline-block; margin-top: 20px; color: #e74c3c; text-decoration: none; font-weight: bold; }
+        /* Estilização básica para uma apresentação limpa */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f2f5;
+        }
+
+        header {
+            background-color: #0056b3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .hero-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        /* Destaque para semântica inline */
+        .destaque {
+            color: #d9534f;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Explorando o Recife Antigo</h1>
+        <h1>Descubra o Recife</h1>
+        <p>Um mergulho na história do Nordeste brasileiro</p>
     </header>
 
     <main>
         <section>
-            <h2>Além do Marco Zero</h2>
-            <p>O bairro do Recife Antigo é repleto de cores e história. Aqui estão mais dois lugares imperdíveis:</p>
+            <h2>O Coração da Cidade: Marco Zero</h2>
+            
+            <img src="marco-zero-recife.jpg" alt="Praça Rio Branco, conhecida como Marco Zero em Recife" width="900">
 
-            <div class="container-fotos">
-                <div class="ponto-turistico">
-                    <h3>Rua do Bom Jesus</h3>
-                    <img src="ruadobomjesus.jpeg" alt="Rua do Bom Jesus colorida">
-                    <p>Eleita uma das ruas mais bonitas do mundo, abriga a Sinagoga Kahal Zur Israel.</p>
-                </div>
+            <p>
+                A Praça Rio Branco, popularmente conhecida como <strong>Marco Zero</strong>, é um dos pontos turísticos mais emblemáticos da cidade do Recife. Localizada no Bairro do Recife, ela marca o local onde a cidade nasceu.
+            </p>
 
-                <div class="ponto-turistico">
-                    <h3>Paço do Frevo</h3>
-                    <img src="frevo.jpg" alt="Fachada do Paço do Frevo">
-                    <p>Um espaço dedicado à salvaguarda do frevo, ritmo que é Patrimônio da Humanidade.</p>
-                </div>
-            </div>
+            <p>
+                No centro da praça, encontra-se a Rosa dos Ventos do artista <em>Cícero Dias</em>, um painel colorido que dá vida ao chão do porto. Dali, é possível observar o Parque das Esculturas de Francisco Brennand, situado logo à frente, do outro lado do Rio Capibaribe.
+            </p>
 
-            <a href="index.html" class="btn-voltar">← Voltar para o Marco Zero</a>
+            <p>
+                Este é um ponto de encontro obrigatório para quem deseja sentir a <span class="destaque">energia cultural</span> de Pernambuco, especialmente durante o Carnaval, quando a praça se torna um dos principais palcos da folia.
+                
+                <a href="pontos-turisticos.html" style="display: block; text-align: center; margin: 20px; font-weight: bold; color: #0056b3;">
+    Conheça outros pontos turísticos do Recife Antigo
+</a>
+            </p>
+
+          <img src="praca-marco-zero.jpg" alt="Praça Rio Branco, conhecida como Marco Zero em Recife" width="900">
+
         </section>
     </main>
 
     <footer>
-        <p>Recife Antigo - Guia Turístico &copy; 2026</p>
+        <p>Projeto de Desenvolvimento Web - Conhecendo o Recife &copy; 2026</p>
     </footer>
 
 </body>
+</html>
 </html>
