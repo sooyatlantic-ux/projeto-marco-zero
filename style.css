@@ -8,7 +8,7 @@ body {
     color: #333;
 }
 
-/* CABEÇALHO COM FLEXBOX (Atendendo ao requisito da aula) */
+/* 1. CABEÇALHO COM FLEXBOX (Atendendo ao requisito da aula) */
 header {
     background: linear-gradient(135deg, #0056b3, #00a8ff);
     color: white;
@@ -16,9 +16,9 @@ header {
     
     /* Ativando o Flexbox para centralizar tudo */
     display: flex;
-    flex-direction: column
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;    /* Coloca o H1 em cima do P */
+    align-items: center;       /* Centraliza horizontalmente */
+    justify-content: center;    /* Centraliza verticalmente */
     text-align: center;
 }
 
@@ -28,7 +28,7 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
-/* CONTEÚDO PRINCIPAL COM FLEXBOX */
+/* 2. CONTEÚDO PRINCIPAL COM FLEXBOX */
 main {
     max-width: 850px;
     margin: -40px auto 40px;
@@ -37,10 +37,10 @@ main {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 
-    /* Flexbox para alinhar os elementos verticalmente com espaço entre eles */
+    /* Flexbox para alinhar os elementos verticalmente */
     display: flex;
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px; /* Cria o espaçamento automático entre os itens (Flexbox Gap) */
 }
 
 h2 {
@@ -59,14 +59,14 @@ img {
 }
 
 img:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
-/* Botão de Navegação com Flexbox */
+/* 3. BOTÃO DE NAVEGAÇÃO COM FLEXBOX */
 .btn-navegacao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex;             /* Ativa o flexbox dentro do botão */
+    align-items: center;       /* Centraliza o texto verticalmente */
+    justify-content: center;    /* Centraliza o texto horizontalmente */
     width: fit-content;
     margin: 30px auto;
     padding: 15px 30px;
