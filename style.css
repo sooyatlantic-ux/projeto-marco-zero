@@ -16,7 +16,7 @@ header {
     
     /* Ativando o Flexbox para centralizar tudo */
     display: flex;
-    flex-direction: row
+    flex-direction: column
     align-items: center;
     justify-content: center;
     text-align: center;
